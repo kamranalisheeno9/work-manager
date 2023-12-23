@@ -45,7 +45,7 @@ export default  function SignInPage() {
       try {
         setTimeout(() => {
           setLoading(false)
-        }, 2000);
+        }, 3000);
       const signedUser=  await signIn(user)
       toast.success("User Signed In",{
         position:"bottom-right",

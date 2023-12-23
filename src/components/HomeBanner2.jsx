@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 
-const texts = ['Task Manager', 'Work Organizer', 'Productivity Boost'];
+const texts = ['Task Organizer', 'Work Manager', 'Productivity Booster'];
 
 const Home = () => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
@@ -20,7 +20,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center min-h-screen ">
       <h1
         className={`text-4xl font-bold mb-4 transition-opacity duration-500 ${
           showText ? 'opacity-100' : 'opacity-0'
@@ -28,8 +28,8 @@ const Home = () => {
       >
         Welcome to our {texts[currentTextIndex]}
       </h1>
-      <p className="text-lg text-gray-600">
-        This is a powerful tool to manage your tasks efficiently.
+      <p className="text-lg text-gray-400">
+        This is a powerful tool to manage your work tasks efficiently.
       </p>
     </div>
   );

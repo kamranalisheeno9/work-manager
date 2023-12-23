@@ -5,7 +5,7 @@ export default function MainBanner() {
   return (
     <div className="relative">
       <div className="">
-        <div className="  h-[600px]  items-center  absolute grid grid-cols-12   z-50">
+        <div className="  h-[700px]  items-center  absolute grid grid-cols-12   z-50">
             <div className=" col-span-6 text-start  text-white  px-36  ">
                 <div className=" text-6xl uppercase ">Work</div>
                 <div className=" text-8xl ">Manager</div>
@@ -24,10 +24,10 @@ export default function MainBanner() {
           src={BannerImg}
           alt="Main Banner Image"
           className="dark:invert"
-          style={{ width: "100%", height: "600px", objectFit: "cover" }}
+          style={{ width: "100%", height: "800px", objectFit: "cover" }}
         />
       </div>
-      <div className="  w-[100%] h-[600px] backdrop-blur-md   absolute top-0 z-0 "></div>
+      <div className="  w-[100%] h-[800px] backdrop-blur-md   absolute top-0 z-0 "></div>
     </div>
   );
 }
